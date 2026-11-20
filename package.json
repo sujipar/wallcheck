@@ -1,0 +1,14 @@
+{
+  "name": "wallcheck",
+  "version": "0.1.0",
+  "description": "Tell your browser agent when it has hit a wall only a human can clear - captcha, password, passkey or one-time code.",
+  "type": "module",
+  "main": "index.js",
+  "exports": { ".": "./index.js" },
+  "files": ["index.js", "README.md", "LICENSE"],
+  "scripts": { "test": "node index.test.js" },
+  "keywords": ["browser-automation", "agent", "captcha", "passkey", "playwright", "puppeteer", "human-in-the-loop", "cdp"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/sujipar/wallcheck.git" },
+  "homepage": "https://github.com/sujipar/wallcheck#readme"
+}
